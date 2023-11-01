@@ -2,10 +2,10 @@ package base
 
 import (
 	log "github.com/sirupsen/logrus"
+	"github.com/zhangxinling2/infra"
 	"net"
 	"net/rpc"
 	"reflect"
-	"resk/infra"
 )
 
 var rpcServer *rpc.Server
